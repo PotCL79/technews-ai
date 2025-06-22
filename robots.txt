@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tu-usuario.github.io/technews-ai/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Disallow admin areas (if you add them later)
+Disallow: /admin/
+Disallow: /_private/
+
+# Allow all news and articles
+Allow: /index.html
+Allow: /*.html
