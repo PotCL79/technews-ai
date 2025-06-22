@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://tu-usuario.github.io/technews-ai/sitemap.xml
+Sitemap: https://technews-ai.com/sitemap.xml
 
 # Crawl delay
 Crawl-delay: 1
