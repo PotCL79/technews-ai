@@ -1,0 +1,29 @@
+{
+  "name": "TechNews AI - Periódico Digital de IA y Tecnología",
+  "short_name": "TechNews AI",
+  "description": "El periódico digital más completo de inteligencia artificial y tecnología emergente",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0a0a",
+  "theme_color": "#ff6b35",
+  "categories": ["news", "technology", "artificial intelligence"],
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32", 
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
