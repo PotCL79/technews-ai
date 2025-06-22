@@ -132,23 +132,15 @@ text-decoration: none;
 color: var(--text-primary);
 }
 
-.logo-icon {
-width: 36px;
-height: 36px;
-background: linear-gradient(135deg, var(--primary-blue), var(--primary-dark));
-border-radius: var(--radius-medium);
-display: flex;
-align-items: center;
-justify-content: center;
-color: white;
-font-size: 18px;
-font-weight: 600;
+.logo-image {
+height: 45px;
+width: auto;
+max-width: 200px;
+transition: var(--transition);
 }
 
-.logo-text {
-font-size: 24px;
-font-weight: 700;
-letter-spacing: -0.02em;
+.logo-image:hover {
+transform: scale(1.05);
 }
 
 .nav-links {
@@ -909,8 +901,7 @@ display: none;
 <nav class="navbar" role="navigation" aria-label="Navegación principal">
 <div class="nav-container">
 <a href="/" class="logo" aria-label="TechNews AI - Inicio">
-<div class="logo-icon">AI</div>
-<span class="logo-text">TechNews AI</span>
+<img src="assets/images/technews-logo.png" alt="TechNews AI Logo" class="logo-image">
 </a>
 <ul class="nav-links">
 <li><a href="#" class="nav-link active">Inicio</a></li>
